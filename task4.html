@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .thumbnail {
+          width: 50px;
+          height: 50px;
+          margin: 5px;
+          display: inline-block;
+          cursor: pointer;
+        }
+        
+        #main-image {
+          max-width: 500px;
+          max-height: 500px;
+          position: fixed;
+  bottom: 0;
+        }
+       
+      </style>
+</head>
+<body>
+   <h3>В JS объявлен массив с ссылками на картинки. На основе этого массива формируется множество маленьких картинок в верхней части интерфейса. При нажатии на одну из картинок забирается ссылка на эту картинку и в нижней части интерфейса отображается в большем размере. Так, пользователь, нажимая на маленькие картинки видит их отображение
+    в большем размере.</h3>
+  
+    <div id="small-image"></div>
+    <div id="main-image"></div>
+
+
+    <script src="task4js.js"></script>
+</body>
+</html>
